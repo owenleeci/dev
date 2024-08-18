@@ -21,3 +21,8 @@ if __name__ == '__main__':
     if ftoc(212) - 100 >= 0.0001: 
         print('Failed: 212 F should be 100 C')
 
+    # Owen
+    print('ctof(30) is ' + str(ctof(30)) + " °F")
+    print('ftoc(100) is %.02f °C' % ftoc(100))
+    f = 100
+    print('ftoc(%d) is %.02f °C' % (f, ftoc(f)))
