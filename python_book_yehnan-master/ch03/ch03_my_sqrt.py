@@ -11,12 +11,13 @@ def my_sqrt(n):
     return ans
 
 import math
-print(my_sqrt(9))
-print(math.sqrt(9))
-print(my_sqrt(2))
-print(math.sqrt(2))
-print(my_sqrt(3))
-print(math.sqrt(3))
+
+print('my_sqrt(9):\t%0.10f' % my_sqrt(9))
+print('math.sqrt(9):\t%0.10f' % math.sqrt(9))
+print('my_sqrt(2):\t%0.10f' % my_sqrt(2))
+print('math.sqrt(2):\t%0.10f' % math.sqrt(2))
+print('my_sqrt(3):\t%0.10f' % my_sqrt(3))
+print('math.sqrt(3):\t%0.10f' % math.sqrt(3))
 
 
 

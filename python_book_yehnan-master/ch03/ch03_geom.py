@@ -7,6 +7,7 @@ def geomean(numbers):
 
 if __name__ == '__main__':
     a = list(range(1, 10+1))
+    print(a)
     gm = geomean(a)
     print(gm)
 

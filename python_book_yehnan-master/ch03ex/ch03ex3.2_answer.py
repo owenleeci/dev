@@ -29,3 +29,13 @@ if __name__ == '__main__':
         print('Failed')
     if f(255) != 100:
         print('Failed')
+
+print("f(0): %d" % f(0))
+print("f(130): %d" % f(130))
+print("f(180): %d" % f(180))
+print("f(200): %d" % f(200))
+print("f(225): %d" % f(225))
+print("f(255): %d" % f(255))
+print("f(2553): %d" % f(2553))
+print("f(-3): %d" % f(-3))
+
