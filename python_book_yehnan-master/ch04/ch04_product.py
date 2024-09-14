@@ -12,3 +12,7 @@ c = [1.1, 3.5, 5.6]
 print(product(a, 0.1))
 print(product(b))
 print(product(c))
+
+#import tensorflow as tf
+#print("TensorFlow version:", tf.__version__)
+

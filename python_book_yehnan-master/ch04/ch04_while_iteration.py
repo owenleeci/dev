@@ -7,5 +7,6 @@ while True:
         x = next(itb)
         print(x)
     except StopIteration:
+        print("StopIteration")
         break
  

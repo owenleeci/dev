@@ -11,4 +11,4 @@ b = range(1, 10+1)
 c = ['abc', 'def', 'gh', 'i']
 print(my_sum(a, ''))
 print(my_sum(b))
-print(my_sum(c, ''))
+print(my_sum(c, 'Start:'))
